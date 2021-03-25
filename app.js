@@ -9,6 +9,7 @@ module.exports = app => {
   assert(config.dsn, '[egg-sentry][config] dsn is required');
 
   Sentry.init({
+    environment: app.config.env,
     dsn: config.dsn,
   });
 
