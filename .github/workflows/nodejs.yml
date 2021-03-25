@@ -33,6 +33,8 @@ jobs:
 
     - name: Continuous Integration
       run: npm run ci
+      env:
+        TEST_SENTRY_DSN: ${{ secrets.TEST_SENTRY_DSN }}
 
     # - name: Code Coverage
     #   uses: codecov/codecov-action@v1
