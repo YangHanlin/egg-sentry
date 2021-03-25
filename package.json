@@ -1,5 +1,5 @@
 {
-  "name": "egg-sentry",
+  "name": "@yanghanlin/egg-sentry",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
@@ -47,15 +47,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freebyron/egg-sentry.git"
+    "url": "git+https://github.com/YangHanlin/egg-sentry.git"
   },
   "bugs": {
-    "url": "https://github.com/freebyron/egg-sentry/issues"
+    "url": "https://github.com/YangHanlin/egg-sentry/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/freebyron/egg-sentry#readme",
-  "author": "freebyron",
+  "homepage": "https://github.com/YangHanlin/egg-sentry#readme",
+  "author": "Yang Hanlin",
   "license": "MIT"
 }
