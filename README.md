@@ -83,4 +83,6 @@ These information would be automaticlly injected into error context.
 
 ## Bootstrap
 
-Replace the `dsn` in `test/fixtures/apps/sentry-test/config/config.unittest.js` and then run `npm start` to see what would happen.
+Set environment variable `TEST_SENTRY_DSN` to your Setry DSN and run `npm test` to see what would happen.
+
+You can also put a environment file `.env` under `test/fixtures/apps/sentry-test` to provide the environment variable.
